@@ -1,0 +1,92 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: #0f1115;
+}
+
+body {
+  margin: 0;
+  background: #0f1115;
+  color: #e8edf2;
+}
+
+.app {
+  max-width: 980px;
+  margin: 2rem auto;
+  padding: 0 1rem 3rem;
+}
+
+.panel {
+  background: #1a1f2a;
+  border: 1px solid #2a3345;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.controls input {
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+  background: #0f1115;
+  color: #dfe6ee;
+  border: 1px solid #3d4a63;
+  border-radius: 6px;
+  padding: 0.6rem;
+}
+
+button {
+  background: #3758ff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 0.65rem 1rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #5b6476;
+  cursor: not-allowed;
+}
+
+.logs {
+  margin-top: 0.5rem;
+  background: #0e141d;
+  border: 1px solid #3d4a63;
+  border-radius: 8px;
+  height: 320px;
+  overflow-y: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+  padding: 0.6rem;
+}
+
+.line {
+  line-height: 1.35;
+}
+
+.result a {
+  color: #89b4ff;
+}
+
+.result a.disabled {
+  color: #6c7a92;
+  pointer-events: none;
+  text-decoration: none;
+}
+
+.error {
+  margin-top: 1rem;
+  background: #4b1e23;
+  border: 1px solid #a44048;
+  border-radius: 8px;
+  color: #ffd2d6;
+  padding: 0.75rem;
+}
+
+.task {
+  margin-top: 0.6rem;
+  color: #9caac0;
+  font-size: 0.9rem;
+}
